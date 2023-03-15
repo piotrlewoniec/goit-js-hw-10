@@ -18,3 +18,27 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: decimal;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.country-list > li {
+  padding-bottom: 10px;
+}
+
+.country-list > li > img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.country-info > p > img {
+  margin-right: 10px;
+}
+
+.country-name {
+  font-size: 36px;
+}
