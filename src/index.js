@@ -28,7 +28,7 @@ const countrySearch = {
     let localDataDisplay = [];
     for (let country of this.serverData) {
       const localDataDisplayObj = {};
-      for (key in country) {
+      for (let key in country) {
         if (key === 'name') {
           localDataDisplayObj.name = country[key];
         }
@@ -50,7 +50,7 @@ const countrySearch = {
       }
       localDataDisplay.push(localDataDisplayObj);
     }
-    for (country of localDataDisplay) {
+    for (let country of localDataDisplay) {
       const localDataDisplaySortedObj = {};
       localDataDisplaySortedObj.flags = country.flags;
       localDataDisplaySortedObj.name = country.name;
