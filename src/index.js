@@ -26,7 +26,7 @@ const countrySearch = {
   dataPreparation: function () {
     this.workData.splice(0);
     let localDataDisplay = [];
-    for (country of this.serverData) {
+    for (let country of this.serverData) {
       const localDataDisplayObj = {};
       for (key in country) {
         if (key === 'name') {
